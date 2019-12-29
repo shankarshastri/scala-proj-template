@@ -1,11 +1,8 @@
 language: scala
 
-jobs:
-  include:
-    - os: linux
-      dist: bionic
-    - os: osx
-      osx_image: xcode11.3
+os:
+  - linux
+
 jdk:
   - openjdk8
   - openjdk11
