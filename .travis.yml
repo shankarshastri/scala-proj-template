@@ -1,10 +1,7 @@
-dist: trusty
-
 language: scala
 
 os:
   - linux
-  - osx
 
 jdk:
   - openjdk8
