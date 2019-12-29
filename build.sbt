@@ -19,7 +19,7 @@ import sbt.Keys.{ resolvers, version }
 import sbt.addCommandAlias
 
 
-lazy val commands = List("bloopInstall", "headerCheck", "scalastyle", "scalafmtCheckAll", "compile:scalafix", "test:scalafix", "shield",
+lazy val commands = List("clean","bloopInstall", "headerCheck", "scalastyle", "scalafmtCheckAll", "compile:scalafix", "test:scalafix", "shield",
     "test")
 lazy val root = project
   .in(file("."))
