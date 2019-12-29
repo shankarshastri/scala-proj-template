@@ -1,0 +1,19 @@
+language: scala
+
+jdk:
+  - openjdk8
+  - openjdk11
+
+scala:
+  - 2.12.10
+  - 2.13.1
+
+script:
+  - jdk_switcher use openjdk8
+  - sbt -jvm-opts travis/jvmopts.compile cat
+  - sbt -jvm-opts travis/jvmopts.compile compile
+  - sbt -jvm-opts travis/jvmopts.test test
+  - jdk_switcher use openjdk11
+  - sbt -jvm-opts travis/jvmopts.compile cat
+  - sbt -jvm-opts travis/jvmopts.compile compile
+  - sbt -jvm-opts travis/jvmopts.test test
