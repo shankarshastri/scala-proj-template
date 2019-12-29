@@ -1,4 +1,4 @@
-dist: xenial
+dist: trusty
 
 language: scala
 
@@ -27,3 +27,6 @@ scala:
 
 script:
   - sbt -jvm-opts travis/jvmopts.compile cat
+  
+notifications:
+  email: false
