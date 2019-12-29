@@ -2,10 +2,12 @@ dist: trusty
 
 language: scala
 
-os:
-  - linux
-  - osx
-
+jobs:
+  include:
+    - os: linux
+      dist: trusty
+    - os: osx
+      osx_image: xcode11.3
 jdk:
   - openjdk8
   - openjdk11
