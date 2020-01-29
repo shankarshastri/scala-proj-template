@@ -16,7 +16,7 @@
 
 addSbtPlugin("ch.epfl.scala"             % "sbt-scalafix"              % "0.9.11")
 addSbtPlugin("com.jsuereth"              % "sbt-pgp"                   % "2.0.1")
-addSbtPlugin("org.scalameta"             % "sbt-scalafmt"              % "2.3.0")
+addSbtPlugin("org.scalameta"             % "sbt-scalafmt"              % "2.3.1")
 addSbtPlugin("com.github.cb372"          % "sbt-explicit-dependencies" % "0.2.12")
 addSbtPlugin("de.heikoseeberger"         % "sbt-header"                % "5.4.0")
 addSbtPlugin("ch.epfl.scala"             % "sbt-bloop"                 % "1.4.0-RC1")
