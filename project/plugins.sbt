@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-addSbtPlugin("ch.epfl.scala"             % "sbt-scalafix"              % "0.9.11")
+addSbtPlugin("ch.epfl.scala"             % "sbt-scalafix"              % "0.9.13")
 addSbtPlugin("com.jsuereth"              % "sbt-pgp"                   % "2.0.1")
 addSbtPlugin("org.scalameta"             % "sbt-scalafmt"              % "2.3.0")
 addSbtPlugin("com.github.cb372"          % "sbt-explicit-dependencies" % "0.2.12")
