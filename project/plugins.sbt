@@ -22,5 +22,5 @@ addSbtPlugin("de.heikoseeberger"         % "sbt-header"                % "5.4.0"
 addSbtPlugin("ch.epfl.scala"             % "sbt-bloop"                 % "1.4.0-RC1")
 addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"              % "0.1.10")
 addSbtPlugin("org.scalastyle"            %% "scalastyle-sbt-plugin"    % "1.0.0")
-addSbtPlugin("com.typesafe.sbt"          % "sbt-native-packager"       % "1.5.2")
+addSbtPlugin("com.typesafe.sbt"          % "sbt-native-packager"       % "1.7.1")
 addSbtPlugin("dev.zio"                   % "zio-shield"                % "0.1.0")
