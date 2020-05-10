@@ -5,7 +5,7 @@ object Dependencies {
 
   val zio = "dev.zio" %% "zio" % "1.0.0-RC17"
 
-  val scalaTestDep = "org.scalatest" %% "scalatest"    % "3.1.0"
+  val scalaTestDep = "org.scalatest" %% "scalatest"    % "3.1.2"
   val zioTest      = "dev.zio"       %% "zio-test"     % zioVersion
   val zioTestSbt   = "dev.zio"       %% "zio-test-sbt" % zioVersion
 
