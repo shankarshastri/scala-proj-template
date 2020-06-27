@@ -29,7 +29,7 @@ object HelloWorldTest
             _      <- HelloWorld.sayHelloWorld
             output <- TestConsole.output
           } yield {
-            assert(output, equalTo(Vector("Hello! What is your name?\n", s"Hello, ${name}, welcome to ZIO!\n")))
+            assert(output)(equalTo(Vector("Hello! What is your name?\n", s"Hello, ${name}, welcome to ZIO!\n")))
           }
         }
       )
