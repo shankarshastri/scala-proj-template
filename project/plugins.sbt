@@ -19,7 +19,7 @@ addSbtPlugin("com.jsuereth"              % "sbt-pgp"                   % "2.0.1"
 addSbtPlugin("org.scalameta"             % "sbt-scalafmt"              % "2.3.0")
 addSbtPlugin("com.github.cb372"          % "sbt-explicit-dependencies" % "0.2.12")
 addSbtPlugin("de.heikoseeberger"         % "sbt-header"                % "5.4.0")
-addSbtPlugin("ch.epfl.scala"             % "sbt-bloop"                 % "1.4.0-RC1")
+addSbtPlugin("ch.epfl.scala"             % "sbt-bloop"                 % "1.4.3")
 addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"              % "0.1.10")
 addSbtPlugin("org.scalastyle"            %% "scalastyle-sbt-plugin"    % "1.0.0")
 addSbtPlugin("com.typesafe.sbt"          % "sbt-native-packager"       % "1.5.2")
