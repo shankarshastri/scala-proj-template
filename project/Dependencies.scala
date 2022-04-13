@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
   val zioVersion = "1.0.0-RC17"
 
-  val zio = "dev.zio" %% "zio" % "1.0.0-RC17"
+  val zio = "dev.zio" %% "zio" % "1.0.14"
 
   val scalaTestDep = "org.scalatest" %% "scalatest"    % "3.1.0"
   val zioTest      = "dev.zio"       %% "zio-test"     % zioVersion
