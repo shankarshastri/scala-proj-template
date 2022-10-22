@@ -18,20 +18,28 @@ import Dependencies._
 import sbt.Keys.{ resolvers, version }
 import sbt.addCommandAlias
 
-
-lazy val commands = List("clean","bloopInstall", "headerCheck", "scalastyle", "scalafmtCheckAll", "compile:scalafix", "test:scalafix", "shield",
-    "test")
+lazy val commands = List(
+  "clean",
+  "bloopInstall",
+  "headerCheck",
+  "scalastyle",
+  "scalafmtCheckAll",
+  "compile:scalafix",
+  "test:scalafix",
+  "shield",
+  "test"
+)
 lazy val root = project
   .in(file("."))
   .settings(
     name := "scala-proj-template",
     version := "0.1",
     startYear := Some(2019),
-    crossScalaVersions := Seq("2.12.10", "2.13.1"),
+    crossScalaVersions := Seq("2.12.17", "2.13.1"),
     organizationName := "Shankar R C",
     licenses += ("Apache-2.0", new URL("https://www.apache.org/licenses/LICENSE-2.0.txt")),
     scalacOptions ++= Seq("-Yrangepos", "-Ywarn-unused"),
-    scalaVersion := "2.12.10",
+    scalaVersion := "2.12.17",
     libraryDependencies ++= compileDeps ++ testDeps,
     shieldFatalWarnings := true,
     addCommandAlias("cat", commands.mkString(";")),
